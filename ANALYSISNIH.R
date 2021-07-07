@@ -27,9 +27,9 @@ list2env(list.allDistincts,envir = .GlobalEnv)
 
 
 #export to folder
-#for(i in 1:length(list.allDistincts)){
-  #write.csv(list.allDistincts[[i]], paste0(names(list.allDistincts)[[i]],".csv"))
-#}
+for(i in 1:length(list.allDistincts)){
+  write.csv(list.allDistincts[[i]], paste0(names(list.allDistincts)[[i]],".csv"))
+}
 
 
 
